@@ -1,0 +1,299 @@
+{
+  "took" : 358,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 40,
+    "successful" : 40,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 27,
+      "relation" : "eq"
+    },
+    "max_score" : 0.0,
+    "hits" : [
+      {
+        "_index" : "0240d67c-4d66-4394-b3c4-ac8832e21eda@53",
+        "_type" : "logsearch",
+        "_id" : "tBP9s30BBtCP8ouW9eMs",
+        "_score" : 0.0,
+        "_routing" : "99Be-pGoZw",
+        "_source" : {
+          "__CONTENT__" : "[2021-12-13 21:31:43] [log2cos_schedule_mcd_proc.cpp:343] HandleGetReq: from 9.164.17.225:16814, url: get_task?load=100",
+          "__FILENAME__" : "/usr/local/services/cls_log2cos_schecule-1.0/log/log2cos_schedule_mcd.log",
+          "__LOGTIME__" : 1639402304018,
+          "__PKGID__" : "3DA4695061B06246-6A1AA",
+          "__PKG_LOGID__" : 58851870,
+          "__SOURCE__" : "100.121.54.16",
+          "__TAG__" : {
+            "full_name" : "[N][腾讯云CLS_互联网] - [现网运营][MR_schecule_日志服务] - [MR_schecule_北京日志服务][其他]",
+            "l1_name" : "[N][腾讯云CLS_互联网]",
+            "l2_1_name" : "[现网运营]",
+            "l2_2_name" : "[MR_schecule_日志服务]",
+            "l2_name" : "[现网运营][MR_schecule_日志服务]",
+            "l3_id" : "1433904",
+            "l3_id_name" : "1433904:[MR_schecule_北京日志服务][其他]",
+            "l3_name" : "[MR_schecule_北京日志服务][其他]",
+            "region" : "bj"
+          },
+          "__TIMESTAMP_US__" : 1639402304018813,
+          "__TIMESTAMP__" : 1639402304018
+        }
+      },
+      {
+        "_index" : "0240d67c-4d66-4394-b3c4-ac8832e21eda@53",
+        "_type" : "logsearch",
+        "_id" : "tRP9s30BBtCP8ouW9eMs",
+        "_score" : 0.0,
+        "_routing" : "99Be-pGoZw",
+        "_source" : {
+          "__CONTENT__" : "[2021-12-13 21:31:43] [log2cos_schedule_mcd_proc.cpp:546] worker ip 9.164.17.225 get empty task",
+          "__FILENAME__" : "/usr/local/services/cls_log2cos_schecule-1.0/log/log2cos_schedule_mcd.log",
+          "__LOGTIME__" : 1639402304018,
+          "__PKGID__" : "3DA4695061B06246-6A1AA",
+          "__PKG_LOGID__" : 58851871,
+          "__SOURCE__" : "100.121.54.16",
+          "__TAG__" : {
+            "full_name" : "[N][腾讯云CLS_互联网] - [现网运营][MR_schecule_日志服务] - [MR_schecule_北京日志服务][其他]",
+            "l1_name" : "[N][腾讯云CLS_互联网]",
+            "l2_1_name" : "[现网运营]",
+            "l2_2_name" : "[MR_schecule_日志服务]",
+            "l2_name" : "[现网运营][MR_schecule_日志服务]",
+            "l3_id" : "1433904",
+            "l3_id_name" : "1433904:[MR_schecule_北京日志服务][其他]",
+            "l3_name" : "[MR_schecule_北京日志服务][其他]",
+            "region" : "bj"
+          },
+          "__TIMESTAMP_US__" : 1639402304018815,
+          "__TIMESTAMP__" : 1639402304018
+        }
+      },
+      {
+        "_index" : "0240d67c-4d66-4394-b3c4-ac8832e21eda@53",
+        "_type" : "logsearch",
+        "_id" : "thP9s30BBtCP8ouW9eMs",
+        "_score" : 0.0,
+        "_routing" : "99Be-pGoZw",
+        "_source" : {
+          "__CONTENT__" : "[2021-12-13 21:31:43] [log2cos_schedule_mcd_proc.cpp:349] HandlePostReq: from 9.144.90.212:49289, url: report_result",
+          "__FILENAME__" : "/usr/local/services/cls_log2cos_schecule-1.0/log/log2cos_schedule_mcd.log",
+          "__LOGTIME__" : 1639402304018,
+          "__PKGID__" : "3DA4695061B06246-6A1AA",
+          "__PKG_LOGID__" : 58851872,
+          "__SOURCE__" : "100.121.54.16",
+          "__TAG__" : {
+            "full_name" : "[N][腾讯云CLS_互联网] - [现网运营][MR_schecule_日志服务] - [MR_schecule_北京日志服务][其他]",
+            "l1_name" : "[N][腾讯云CLS_互联网]",
+            "l2_1_name" : "[现网运营]",
+            "l2_2_name" : "[MR_schecule_日志服务]",
+            "l2_name" : "[现网运营][MR_schecule_日志服务]",
+            "l3_id" : "1433904",
+            "l3_id_name" : "1433904:[MR_schecule_北京日志服务][其他]",
+            "l3_name" : "[MR_schecule_北京日志服务][其他]",
+            "region" : "bj"
+          },
+          "__TIMESTAMP_US__" : 1639402304018817,
+          "__TIMESTAMP__" : 1639402304018
+        }
+      },
+      {
+        "_index" : "0240d67c-4d66-4394-b3c4-ac8832e21eda@53",
+        "_type" : "logsearch",
+        "_id" : "txP9s30BBtCP8ouW9eMs",
+        "_score" : 0.0,
+        "_routing" : "99Be-pGoZw",
+        "_source" : {
+          "__CONTENT__" : "[2021-12-13 21:31:43] [log2cos_schedule_mcd_proc.cpp:616] task report task_id: 1639402295736740, worker_ip: 9.144.90.212, ret: 0",
+          "__FILENAME__" : "/usr/local/services/cls_log2cos_schecule-1.0/log/log2cos_schedule_mcd.log",
+          "__LOGTIME__" : 1639402304018,
+          "__PKGID__" : "3DA4695061B06246-6A1AA",
+          "__PKG_LOGID__" : 58851873,
+          "__SOURCE__" : "100.121.54.16",
+          "__TAG__" : {
+            "full_name" : "[N][腾讯云CLS_互联网] - [现网运营][MR_schecule_日志服务] - [MR_schecule_北京日志服务][其他]",
+            "l1_name" : "[N][腾讯云CLS_互联网]",
+            "l2_1_name" : "[现网运营]",
+            "l2_2_name" : "[MR_schecule_日志服务]",
+            "l2_name" : "[现网运营][MR_schecule_日志服务]",
+            "l3_id" : "1433904",
+            "l3_id_name" : "1433904:[MR_schecule_北京日志服务][其他]",
+            "l3_name" : "[MR_schecule_北京日志服务][其他]",
+            "region" : "bj"
+          },
+          "__TIMESTAMP_US__" : 1639402304018819,
+          "__TIMESTAMP__" : 1639402304018
+        }
+      },
+      {
+        "_index" : "0240d67c-4d66-4394-b3c4-ac8832e21eda@53",
+        "_type" : "logsearch",
+        "_id" : "uBP9s30BBtCP8ouW9eMs",
+        "_score" : 0.0,
+        "_routing" : "99Be-pGoZw",
+        "_source" : {
+          "__CONTENT__" : "[2021-12-13 21:31:43] [log2cos_schedule_mcd_proc.cpp:694] insert sql:INSERT INTO metrics_20211213 VALUES (2776458258,'e6f4be8b-e7ab-4a3f-91b6-6c3c6287c464','53f86480-72b0-43e5-b903-692fb311b574','0','2021-12-13 21:30:00',0,924428) ON DUPLICATE KEY UPDATE `count`=`count`+ 0,`size`=`size`+ 924428;",
+          "__FILENAME__" : "/usr/local/services/cls_log2cos_schecule-1.0/log/log2cos_schedule_mcd.log",
+          "__LOGTIME__" : 1639402304018,
+          "__PKGID__" : "3DA4695061B06246-6A1AA",
+          "__PKG_LOGID__" : 58851874,
+          "__SOURCE__" : "100.121.54.16",
+          "__TAG__" : {
+            "full_name" : "[N][腾讯云CLS_互联网] - [现网运营][MR_schecule_日志服务] - [MR_schecule_北京日志服务][其他]",
+            "l1_name" : "[N][腾讯云CLS_互联网]",
+            "l2_1_name" : "[现网运营]",
+            "l2_2_name" : "[MR_schecule_日志服务]",
+            "l2_name" : "[现网运营][MR_schecule_日志服务]",
+            "l3_id" : "1433904",
+            "l3_id_name" : "1433904:[MR_schecule_北京日志服务][其他]",
+            "l3_name" : "[MR_schecule_北京日志服务][其他]",
+            "region" : "bj"
+          },
+          "__TIMESTAMP_US__" : 1639402304018821,
+          "__TIMESTAMP__" : 1639402304018
+        }
+      },
+      {
+        "_index" : "0240d67c-4d66-4394-b3c4-ac8832e21eda@53",
+        "_type" : "logsearch",
+        "_id" : "uRP9s30BBtCP8ouW9eMs",
+        "_score" : 0.0,
+        "_routing" : "99Be-pGoZw",
+        "_source" : {
+          "__CONTENT__" : "[2021-12-13 21:31:43] [log2cos_schedule_mcd_proc.cpp:694] insert sql:INSERT INTO metrics_20211213 VALUES (2776458258,'e6f4be8b-e7ab-4a3f-91b6-6c3c6287c464','53f86480-72b0-43e5-b903-692fb311b574','0','2021-12-13 21:31:00',0,260464) ON DUPLICATE KEY UPDATE `count`=`count`+ 0,`size`=`size`+ 260464;",
+          "__FILENAME__" : "/usr/local/services/cls_log2cos_schecule-1.0/log/log2cos_schedule_mcd.log",
+          "__LOGTIME__" : 1639402304018,
+          "__PKGID__" : "3DA4695061B06246-6A1AA",
+          "__PKG_LOGID__" : 58851875,
+          "__SOURCE__" : "100.121.54.16",
+          "__TAG__" : {
+            "full_name" : "[N][腾讯云CLS_互联网] - [现网运营][MR_schecule_日志服务] - [MR_schecule_北京日志服务][其他]",
+            "l1_name" : "[N][腾讯云CLS_互联网]",
+            "l2_1_name" : "[现网运营]",
+            "l2_2_name" : "[MR_schecule_日志服务]",
+            "l2_name" : "[现网运营][MR_schecule_日志服务]",
+            "l3_id" : "1433904",
+            "l3_id_name" : "1433904:[MR_schecule_北京日志服务][其他]",
+            "l3_name" : "[MR_schecule_北京日志服务][其他]",
+            "region" : "bj"
+          },
+          "__TIMESTAMP_US__" : 1639402304018823,
+          "__TIMESTAMP__" : 1639402304018
+        }
+      },
+      {
+        "_index" : "0240d67c-4d66-4394-b3c4-ac8832e21eda@53",
+        "_type" : "logsearch",
+        "_id" : "uhP9s30BBtCP8ouW9eMs",
+        "_score" : 0.0,
+        "_routing" : "99Be-pGoZw",
+        "_source" : {
+          "__CONTENT__" : "[2021-12-13 21:31:43] [log2cos_schedule_mcd_proc.cpp:343] HandleGetReq: from 9.144.90.207:24681, url: get_task?load=100",
+          "__FILENAME__" : "/usr/local/services/cls_log2cos_schecule-1.0/log/log2cos_schedule_mcd.log",
+          "__LOGTIME__" : 1639402304018,
+          "__PKGID__" : "3DA4695061B06246-6A1AA",
+          "__PKG_LOGID__" : 58851876,
+          "__SOURCE__" : "100.121.54.16",
+          "__TAG__" : {
+            "full_name" : "[N][腾讯云CLS_互联网] - [现网运营][MR_schecule_日志服务] - [MR_schecule_北京日志服务][其他]",
+            "l1_name" : "[N][腾讯云CLS_互联网]",
+            "l2_1_name" : "[现网运营]",
+            "l2_2_name" : "[MR_schecule_日志服务]",
+            "l2_name" : "[现网运营][MR_schecule_日志服务]",
+            "l3_id" : "1433904",
+            "l3_id_name" : "1433904:[MR_schecule_北京日志服务][其他]",
+            "l3_name" : "[MR_schecule_北京日志服务][其他]",
+            "region" : "bj"
+          },
+          "__TIMESTAMP_US__" : 1639402304018824,
+          "__TIMESTAMP__" : 1639402304018
+        }
+      },
+      {
+        "_index" : "0240d67c-4d66-4394-b3c4-ac8832e21eda@53",
+        "_type" : "logsearch",
+        "_id" : "uxP9s30BBtCP8ouW9eMs",
+        "_score" : 0.0,
+        "_routing" : "99Be-pGoZw",
+        "_source" : {
+          "__CONTENT__" : "[2021-12-13 21:31:43] [log2cos_schedule_mcd_proc.cpp:546] worker ip 9.144.90.207 get empty task",
+          "__FILENAME__" : "/usr/local/services/cls_log2cos_schecule-1.0/log/log2cos_schedule_mcd.log",
+          "__LOGTIME__" : 1639402304018,
+          "__PKGID__" : "3DA4695061B06246-6A1AA",
+          "__PKG_LOGID__" : 58851877,
+          "__SOURCE__" : "100.121.54.16",
+          "__TAG__" : {
+            "full_name" : "[N][腾讯云CLS_互联网] - [现网运营][MR_schecule_日志服务] - [MR_schecule_北京日志服务][其他]",
+            "l1_name" : "[N][腾讯云CLS_互联网]",
+            "l2_1_name" : "[现网运营]",
+            "l2_2_name" : "[MR_schecule_日志服务]",
+            "l2_name" : "[现网运营][MR_schecule_日志服务]",
+            "l3_id" : "1433904",
+            "l3_id_name" : "1433904:[MR_schecule_北京日志服务][其他]",
+            "l3_name" : "[MR_schecule_北京日志服务][其他]",
+            "region" : "bj"
+          },
+          "__TIMESTAMP_US__" : 1639402304018826,
+          "__TIMESTAMP__" : 1639402304018
+        }
+      },
+      {
+        "_index" : "0240d67c-4d66-4394-b3c4-ac8832e21eda@53",
+        "_type" : "logsearch",
+        "_id" : "vBP9s30BBtCP8ouW9eMs",
+        "_score" : 0.0,
+        "_routing" : "99Be-pGoZw",
+        "_source" : {
+          "__CONTENT__" : "[2021-12-13 21:31:43] [log2cos_schedule_mcd_proc.cpp:349] HandlePostReq: from 9.144.90.212:49801, url: report_result",
+          "__FILENAME__" : "/usr/local/services/cls_log2cos_schecule-1.0/log/log2cos_schedule_mcd.log",
+          "__LOGTIME__" : 1639402304018,
+          "__PKGID__" : "3DA4695061B06246-6A1AA",
+          "__PKG_LOGID__" : 58851878,
+          "__SOURCE__" : "100.121.54.16",
+          "__TAG__" : {
+            "full_name" : "[N][腾讯云CLS_互联网] - [现网运营][MR_schecule_日志服务] - [MR_schecule_北京日志服务][其他]",
+            "l1_name" : "[N][腾讯云CLS_互联网]",
+            "l2_1_name" : "[现网运营]",
+            "l2_2_name" : "[MR_schecule_日志服务]",
+            "l2_name" : "[现网运营][MR_schecule_日志服务]",
+            "l3_id" : "1433904",
+            "l3_id_name" : "1433904:[MR_schecule_北京日志服务][其他]",
+            "l3_name" : "[MR_schecule_北京日志服务][其他]",
+            "region" : "bj"
+          },
+          "__TIMESTAMP_US__" : 1639402304018828,
+          "__TIMESTAMP__" : 1639402304018
+        }
+      },
+      {
+        "_index" : "0240d67c-4d66-4394-b3c4-ac8832e21eda@53",
+        "_type" : "logsearch",
+        "_id" : "vRP9s30BBtCP8ouW9eMs",
+        "_score" : 0.0,
+        "_routing" : "99Be-pGoZw",
+        "_source" : {
+          "__CONTENT__" : "[2021-12-13 21:31:43] [log2cos_schedule_mcd_proc.cpp:616] task report task_id: 1639402295736201, worker_ip: 9.144.90.212, ret: 0",
+          "__FILENAME__" : "/usr/local/services/cls_log2cos_schecule-1.0/log/log2cos_schedule_mcd.log",
+          "__LOGTIME__" : 1639402304018,
+          "__PKGID__" : "3DA4695061B06246-6A1AA",
+          "__PKG_LOGID__" : 58851879,
+          "__SOURCE__" : "100.121.54.16",
+          "__TAG__" : {
+            "full_name" : "[N][腾讯云CLS_互联网] - [现网运营][MR_schecule_日志服务] - [MR_schecule_北京日志服务][其他]",
+            "l1_name" : "[N][腾讯云CLS_互联网]",
+            "l2_1_name" : "[现网运营]",
+            "l2_2_name" : "[MR_schecule_日志服务]",
+            "l2_name" : "[现网运营][MR_schecule_日志服务]",
+            "l3_id" : "1433904",
+            "l3_id_name" : "1433904:[MR_schecule_北京日志服务][其他]",
+            "l3_name" : "[MR_schecule_北京日志服务][其他]",
+            "region" : "bj"
+          },
+          "__TIMESTAMP_US__" : 1639402304018830,
+          "__TIMESTAMP__" : 1639402304018
+        }
+      }
+    ]
+  }
+}

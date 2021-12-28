@@ -1,0 +1,462 @@
+|                                                         Metric |                               Task |      Value |   Unit |
+|---------------------------------------------------------------:|-----------------------------------:|-----------:|-------:|
+|                     Cumulative indexing time of primary shards |                                    |    999.504 |    min |
+|             Min cumulative indexing time across primary shards |                                    |          0 |    min |
+|          Median cumulative indexing time across primary shards |                                    |   0.184375 |    min |
+|             Max cumulative indexing time across primary shards |                                    |    471.162 |    min |
+|            Cumulative indexing throttle time of primary shards |                                    |          0 |    min |
+|    Min cumulative indexing throttle time across primary shards |                                    |          0 |    min |
+| Median cumulative indexing throttle time across primary shards |                                    |          0 |    min |
+|    Max cumulative indexing throttle time across primary shards |                                    |          0 |    min |
+|                        Cumulative merge time of primary shards |                                    |    491.842 |    min |
+|                       Cumulative merge count of primary shards |                                    |       1449 |        |
+|                Min cumulative merge time across primary shards |                                    |          0 |    min |
+|             Median cumulative merge time across primary shards |                                    |   0.022725 |    min |
+|                Max cumulative merge time across primary shards |                                    |    222.917 |    min |
+|               Cumulative merge throttle time of primary shards |                                    |    2.16203 |    min |
+|       Min cumulative merge throttle time across primary shards |                                    |          0 |    min |
+|    Median cumulative merge throttle time across primary shards |                                    |          0 |    min |
+|       Max cumulative merge throttle time across primary shards |                                    |    0.76495 |    min |
+|                      Cumulative refresh time of primary shards |                                    |    49.4596 |    min |
+|                     Cumulative refresh count of primary shards |                                    |       8478 |        |
+|              Min cumulative refresh time across primary shards |                                    |          0 |    min |
+|           Median cumulative refresh time across primary shards |                                    |  0.0816083 |    min |
+|              Max cumulative refresh time across primary shards |                                    |     24.876 |    min |
+|                        Cumulative flush time of primary shards |                                    |    54.2798 |    min |
+|                       Cumulative flush count of primary shards |                                    |        304 |        |
+|                Min cumulative flush time across primary shards |                                    |          0 |    min |
+|             Median cumulative flush time across primary shards |                                    |  0.0846333 |    min |
+|                Max cumulative flush time across primary shards |                                    |    24.5782 |    min |
+|                                        Total Young Gen GC time |                                    |          0 |      s |
+|                                       Total Young Gen GC count |                                    |          0 |        |
+|                                          Total Old Gen GC time |                                    |          0 |      s |
+|                                         Total Old Gen GC count |                                    |          0 |        |
+|                                                     Store size |                                    |    47.4671 |     GB |
+|                                                  Translog size |                                    |  0.0076982 |     GB |
+|                                         Heap used for segments |                                    |   0.660759 |     MB |
+|                                       Heap used for doc values |                                    |   0.168129 |     MB |
+|                                            Heap used for terms |                                    |   0.388657 |     MB |
+|                                            Heap used for norms |                                    | 0.00170898 |     MB |
+|                                           Heap used for points |                                    |          0 |     MB |
+|                                    Heap used for stored fields |                                    |   0.102264 |     MB |
+|                                                  Segment count |                                    |        184 |        |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_1 |       4.38 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_1 |       4.38 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_1 |       4.38 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_1 |       4.38 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_1 |    224.488 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_1 |    224.488 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_1 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_2 |       4.25 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_2 |       4.25 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_2 |       4.25 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_2 |       4.25 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_2 |    234.965 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_2 |    234.965 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_2 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_3 |        4.4 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_3 |        4.4 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_3 |        4.4 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_3 |        4.4 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_3 |     224.98 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_3 |     224.98 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_3 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_4 |       4.66 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_4 |       4.66 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_4 |       4.66 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_4 |       4.66 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_4 |    214.342 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_4 |    214.342 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_4 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_5 |       4.06 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_5 |       4.06 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_5 |       4.06 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_5 |       4.06 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_5 |    244.325 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_5 |    244.325 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_5 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_6 |       3.65 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_6 |       3.65 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_6 |       3.65 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_6 |       3.65 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_6 |    273.947 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_6 |    273.947 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_6 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_7 |       4.38 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_7 |       4.38 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_7 |       4.38 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_7 |       4.38 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_7 |    224.036 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_7 |    224.036 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_7 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_8 |       4.22 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_8 |       4.22 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_8 |       4.22 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_8 |       4.22 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_8 |    236.669 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_8 |    236.669 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_8 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_9 |          4 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_9 |          4 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_9 |          4 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_9 |          4 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_9 |    242.211 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_9 |    242.211 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_9 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_10 |       4.56 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_10 |       4.56 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_10 |       4.56 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_10 |       4.56 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_10 |    219.205 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_10 |    219.205 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_10 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_11 |       4.36 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_11 |       4.36 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_11 |       4.36 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_11 |       4.36 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_11 |    223.389 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_11 |    223.389 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_11 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_12 |       4.17 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_12 |       4.17 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_12 |       4.17 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_12 |       4.17 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_12 |    239.781 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_12 |    239.781 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_12 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_13 |       4.37 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_13 |       4.37 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_13 |       4.37 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_13 |       4.37 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_13 |    224.172 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_13 |    224.172 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_13 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_14 |       4.29 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_14 |       4.29 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_14 |       4.29 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_14 |       4.29 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_14 |    232.311 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_14 |    232.311 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_14 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_15 |       3.61 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_15 |       3.61 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_15 |       3.61 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_15 |       3.61 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_15 |    272.234 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_15 |    272.234 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_15 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_16 |       3.72 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_16 |       3.72 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_16 |       3.72 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_16 |       3.72 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_16 |    268.523 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_16 |    268.523 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_16 |          0 |      % |
+|                                                         Metric |                               Task |      Value |   Unit |
+|---------------------------------------------------------------:|-----------------------------------:|-----------:|-------:|
+|                     Cumulative indexing time of primary shards |                                    |    999.512 |    min |
+|             Min cumulative indexing time across primary shards |                                    |          0 |    min |
+|          Median cumulative indexing time across primary shards |                                    |   0.185292 |    min |
+|             Max cumulative indexing time across primary shards |                                    |    471.162 |    min |
+|            Cumulative indexing throttle time of primary shards |                                    |          0 |    min |
+|    Min cumulative indexing throttle time across primary shards |                                    |          0 |    min |
+| Median cumulative indexing throttle time across primary shards |                                    |          0 |    min |
+|    Max cumulative indexing throttle time across primary shards |                                    |          0 |    min |
+|                        Cumulative merge time of primary shards |                                    |    491.875 |    min |
+|                       Cumulative merge count of primary shards |                                    |       1459 |        |
+|                Min cumulative merge time across primary shards |                                    |          0 |    min |
+|             Median cumulative merge time across primary shards |                                    |     0.0249 |    min |
+|                Max cumulative merge time across primary shards |                                    |    222.917 |    min |
+|               Cumulative merge throttle time of primary shards |                                    |    2.16203 |    min |
+|       Min cumulative merge throttle time across primary shards |                                    |          0 |    min |
+|    Median cumulative merge throttle time across primary shards |                                    |          0 |    min |
+|       Max cumulative merge throttle time across primary shards |                                    |    0.76495 |    min |
+|                      Cumulative refresh time of primary shards |                                    |    49.5272 |    min |
+|                     Cumulative refresh count of primary shards |                                    |       8599 |        |
+|              Min cumulative refresh time across primary shards |                                    |          0 |    min |
+|           Median cumulative refresh time across primary shards |                                    |  0.0865417 |    min |
+|              Max cumulative refresh time across primary shards |                                    |    24.9337 |    min |
+|                        Cumulative flush time of primary shards |                                    |    54.2798 |    min |
+|                       Cumulative flush count of primary shards |                                    |        304 |        |
+|                Min cumulative flush time across primary shards |                                    |          0 |    min |
+|             Median cumulative flush time across primary shards |                                    |  0.0846333 |    min |
+|                Max cumulative flush time across primary shards |                                    |    24.5782 |    min |
+|                                        Total Young Gen GC time |                                    |          0 |      s |
+|                                       Total Young Gen GC count |                                    |          0 |        |
+|                                          Total Old Gen GC time |                                    |          0 |      s |
+|                                         Total Old Gen GC count |                                    |          0 |        |
+|                                                     Store size |                                    |    47.4685 |     GB |
+|                                                  Translog size |                                    | 0.00841963 |     GB |
+|                                         Heap used for segments |                                    |   0.676689 |     MB |
+|                                       Heap used for doc values |                                    |   0.171913 |     MB |
+|                                            Heap used for terms |                                    |    0.40007 |     MB |
+|                                            Heap used for norms |                                    | 0.00244141 |     MB |
+|                                           Heap used for points |                                    |          0 |     MB |
+|                                    Heap used for stored fields |                                    |   0.102264 |     MB |
+|                                                  Segment count |                                    |        184 |        |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_1 |       9.94 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_1 |       9.94 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_1 |       9.94 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_1 |       9.94 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_1 |    99.4598 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_1 |    99.4598 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_1 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_2 |       9.96 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_2 |       9.96 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_2 |       9.96 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_2 |       9.96 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_2 |    100.248 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_2 |    100.248 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_2 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_3 |      11.54 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_3 |      11.54 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_3 |      11.54 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_3 |      11.54 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_3 |    85.5919 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_3 |    85.5919 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_3 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_4 |      10.79 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_4 |      10.79 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_4 |      10.79 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_4 |      10.79 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_4 |    92.5138 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_4 |    92.5138 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_4 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_5 |      10.75 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_5 |      10.75 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_5 |      10.75 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_5 |      10.75 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_5 |    91.6913 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_5 |    91.6913 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_5 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_6 |      10.55 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_6 |      10.55 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_6 |      10.55 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_6 |      10.55 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_6 |    94.5365 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_6 |    94.5365 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_6 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_7 |      13.02 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_7 |      13.02 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_7 |      13.02 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_7 |      13.02 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_7 |    75.8037 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_7 |    75.8037 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_7 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_8 |      12.07 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_8 |      12.07 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_8 |      12.07 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_8 |      12.07 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_8 |    82.7417 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_8 |    82.7417 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_8 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_9 |       11.6 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_9 |       11.6 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_9 |       11.6 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_9 |       11.6 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_9 |    85.3244 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_9 |    85.3244 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_9 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_10 |      13.41 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_10 |      13.41 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_10 |      13.41 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_10 |      13.41 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_10 |    74.4253 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_10 |    74.4253 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_10 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_11 |       9.06 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_11 |       9.06 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_11 |       9.06 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_11 |       9.06 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_11 |    109.266 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_11 |    109.266 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_11 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_12 |      10.47 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_12 |      10.47 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_12 |      10.47 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_12 |      10.47 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_12 |    95.3725 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_12 |    95.3725 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_12 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_13 |      11.81 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_13 |      11.81 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_13 |      11.81 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_13 |      11.81 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_13 |    83.7403 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_13 |    83.7403 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_13 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_14 |       9.22 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_14 |       9.22 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_14 |       9.22 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_14 |       9.22 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_14 |    108.277 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_14 |    108.277 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_14 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_15 |         11 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_15 |         11 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_15 |         11 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_15 |         11 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_15 |    89.5673 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_15 |    89.5673 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_15 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_16 |      13.53 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_16 |      13.53 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_16 |      13.53 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_16 |      13.53 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_16 |    73.6748 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_16 |    73.6748 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_16 |          0 |      % |
+|                                                         Metric |                               Task |      Value |   Unit |
+|---------------------------------------------------------------:|-----------------------------------:|-----------:|-------:|
+|                     Cumulative indexing time of primary shards |                                    |    999.522 |    min |
+|             Min cumulative indexing time across primary shards |                                    |          0 |    min |
+|          Median cumulative indexing time across primary shards |                                    |     0.1856 |    min |
+|             Max cumulative indexing time across primary shards |                                    |    471.162 |    min |
+|            Cumulative indexing throttle time of primary shards |                                    |          0 |    min |
+|    Min cumulative indexing throttle time across primary shards |                                    |          0 |    min |
+| Median cumulative indexing throttle time across primary shards |                                    |          0 |    min |
+|    Max cumulative indexing throttle time across primary shards |                                    |          0 |    min |
+|                        Cumulative merge time of primary shards |                                    |    491.935 |    min |
+|                       Cumulative merge count of primary shards |                                    |       1476 |        |
+|                Min cumulative merge time across primary shards |                                    |          0 |    min |
+|             Median cumulative merge time across primary shards |                                    |    0.02695 |    min |
+|                Max cumulative merge time across primary shards |                                    |    222.917 |    min |
+|               Cumulative merge throttle time of primary shards |                                    |    2.16203 |    min |
+|       Min cumulative merge throttle time across primary shards |                                    |          0 |    min |
+|    Median cumulative merge throttle time across primary shards |                                    |          0 |    min |
+|       Max cumulative merge throttle time across primary shards |                                    |    0.76495 |    min |
+|                      Cumulative refresh time of primary shards |                                    |     49.675 |    min |
+|                     Cumulative refresh count of primary shards |                                    |       8775 |        |
+|              Min cumulative refresh time across primary shards |                                    |          0 |    min |
+|           Median cumulative refresh time across primary shards |                                    |  0.0878083 |    min |
+|              Max cumulative refresh time across primary shards |                                    |      25.06 |    min |
+|                        Cumulative flush time of primary shards |                                    |    54.3629 |    min |
+|                       Cumulative flush count of primary shards |                                    |        307 |        |
+|                Min cumulative flush time across primary shards |                                    |          0 |    min |
+|             Median cumulative flush time across primary shards |                                    |   0.098175 |    min |
+|                Max cumulative flush time across primary shards |                                    |    24.5782 |    min |
+|                                        Total Young Gen GC time |                                    |          0 |      s |
+|                                       Total Young Gen GC count |                                    |          0 |        |
+|                                          Total Old Gen GC time |                                    |          0 |      s |
+|                                         Total Old Gen GC count |                                    |          0 |        |
+|                                                     Store size |                                    |    47.4674 |     GB |
+|                                                  Translog size |                                    | 0.00797774 |     GB |
+|                                         Heap used for segments |                                    |   0.660938 |     MB |
+|                                       Heap used for doc values |                                    |   0.184444 |     MB |
+|                                            Heap used for terms |                                    |   0.373428 |     MB |
+|                                            Heap used for norms |                                    | 0.00219727 |     MB |
+|                                           Heap used for points |                                    |          0 |     MB |
+|                                    Heap used for stored fields |                                    |   0.100868 |     MB |
+|                                                  Segment count |                                    |        181 |        |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_1 |       9.46 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_1 |       9.46 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_1 |       9.46 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_1 |       9.46 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_1 |    104.007 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_1 |    104.007 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_1 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_2 |       9.91 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_2 |       9.91 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_2 |       9.91 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_2 |       9.91 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_2 |    100.691 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_2 |    100.691 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_2 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_3 |       8.09 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_3 |       8.09 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_3 |       8.09 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_3 |       8.09 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_3 |     121.96 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_3 |     121.96 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_3 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_4 |       9.68 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_4 |       9.68 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_4 |       9.68 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_4 |       9.68 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_4 |    103.022 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_4 |    103.022 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_4 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_5 |       9.36 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_5 |       9.36 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_5 |       9.36 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_5 |       9.36 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_5 |     104.72 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_5 |     104.72 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_5 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_6 |       9.54 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_6 |       9.54 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_6 |       9.54 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_6 |       9.54 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_6 |    102.151 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_6 |    102.151 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_6 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_7 |       9.64 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_7 |       9.64 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_7 |       9.64 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_7 |       9.64 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_7 |    101.951 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_7 |    101.951 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_7 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_8 |       9.64 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_8 |       9.64 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_8 |       9.64 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_8 |       9.64 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_8 |    103.498 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_8 |    103.498 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_8 |          0 |      % |
+|                                                 Min Throughput |  asc_sort_range_with_dense_query_9 |       8.25 |  ops/s |
+|                                                Mean Throughput |  asc_sort_range_with_dense_query_9 |       8.25 |  ops/s |
+|                                              Median Throughput |  asc_sort_range_with_dense_query_9 |       8.25 |  ops/s |
+|                                                 Max Throughput |  asc_sort_range_with_dense_query_9 |       8.25 |  ops/s |
+|                                       100th percentile latency |  asc_sort_range_with_dense_query_9 |     118.68 |     ms |
+|                                  100th percentile service time |  asc_sort_range_with_dense_query_9 |     118.68 |     ms |
+|                                                     error rate |  asc_sort_range_with_dense_query_9 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_10 |       9.84 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_10 |       9.84 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_10 |       9.84 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_10 |       9.84 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_10 |    101.429 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_10 |    101.429 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_10 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_11 |       8.26 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_11 |       8.26 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_11 |       8.26 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_11 |       8.26 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_11 |    119.596 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_11 |    119.596 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_11 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_12 |       9.58 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_12 |       9.58 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_12 |       9.58 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_12 |       9.58 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_12 |    104.095 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_12 |    104.095 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_12 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_13 |       7.64 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_13 |       7.64 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_13 |       7.64 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_13 |       7.64 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_13 |    129.755 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_13 |    129.755 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_13 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_14 |       8.14 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_14 |       8.14 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_14 |       8.14 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_14 |       8.14 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_14 |    122.734 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_14 |    122.734 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_14 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_15 |          8 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_15 |          8 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_15 |          8 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_15 |          8 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_15 |    123.669 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_15 |    123.669 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_15 |          0 |      % |
+|                                                 Min Throughput | asc_sort_range_with_dense_query_16 |      10.44 |  ops/s |
+|                                                Mean Throughput | asc_sort_range_with_dense_query_16 |      10.44 |  ops/s |
+|                                              Median Throughput | asc_sort_range_with_dense_query_16 |      10.44 |  ops/s |
+|                                                 Max Throughput | asc_sort_range_with_dense_query_16 |      10.44 |  ops/s |
+|                                       100th percentile latency | asc_sort_range_with_dense_query_16 |    95.5469 |     ms |
+|                                  100th percentile service time | asc_sort_range_with_dense_query_16 |    95.5469 |     ms |
+|                                                     error rate | asc_sort_range_with_dense_query_16 |          0 |      % |

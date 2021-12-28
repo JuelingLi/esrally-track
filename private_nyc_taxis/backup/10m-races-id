@@ -1,0 +1,26 @@
+2742d00c-80f3-4f4d-9e18-3d10717bca6f  20211206T092444Z  private_nyc_taxis                      parallel             external  nyc_text=asc-no-8
+564d3546-b161-4e21-9e54-efec942c0e3d  20211206T092404Z  private_nyc_taxis                      parallel             external  nyc_text=asc-no-80
+4e8757c6-ee7a-4591-a126-1e90ef564099  20211206T092224Z  private_nyc_taxis                      parallel             external  nyc_text=asc-no-400
+23dcf827-a006-42bf-b1b8-1fcc22c4f628  20211206T092051Z  private_nyc_taxis                      parallel             external  nyc_text=asc-no-800
+7ec836ea-1a33-4bd4-b320-716e0c2cae87  20211206T091923Z  private_nyc_taxis                      parallel             external  nyc_text=asc-no-800
+d9590276-281c-4fdf-a37c-5fd70d1aba12  20211206T091743Z  private_nyc_taxis                      ingest-data-no-sort  external  nyc_text=no_indexing
+87d11248-cfea-4445-a3ac-3da110e2a225  20211206T091624Z  private_nyc_taxis                      parallel             external  nyc_text=asc-sort-80
+7dbae546-5d7d-4b22-937a-2fb930d8d476  20211206T091532Z  private_nyc_taxis                      parallel             external  nyc_text=asc-sort-8
+e5bbbe7d-35b2-4430-8277-52068df28282  20211206T091446Z  private_nyc_taxis                      parallel             external  nyc_text=asc-sort-80
+0fb54b3c-c7d4-40bc-adaf-f883a88ee3d3  20211206T091338Z  private_nyc_taxis                      parallel             external  nyc_text=asc-sort-400
+e543aaa2-f51a-46f7-bbaa-b1ef7dfa7ca5  20211206T091152Z  private_nyc_taxis                      parallel             external  nyc_text=asc-sort-800
+6efc9c74-4e2c-4e5e-953d-e4140a8fb9fd  20211206T090859Z  private_nyc_taxis                      parallel             external  nyc_text=parallel
+5e6d3515-c58c-402a-aa2e-3b055e617692  20211206T090729Z  private_nyc_taxis                      parallel             external  nyc_text=parallel
+db545eaa-6f92-408c-93cc-0638669ba84f  20211206T090640Z  private_nyc_taxis                      parallel             external  nyc_text=parallel
+
+8
+esrally compare --baseline=2742d00c-80f3-4f4d-9e18-3d10717bca6f  --contender=7dbae546-5d7d-4b22-937a-2fb930d8d476
+
+80
+esrally compare --baseline=564d3546-b161-4e21-9e54-efec942c0e3d --contender=e5bbbe7d-35b2-4430-8277-52068df28282
+
+400
+esrally compare --baseline=4e8757c6-ee7a-4591-a126-1e90ef564099 --contender=0fb54b3c-c7d4-40bc-adaf-f883a88ee3d3
+
+800
+esrally compare --baseline=23dcf827-a006-42bf-b1b8-1fcc22c4f628 --contender=e543aaa2-f51a-46f7-bbaa-b1ef7dfa7ca5

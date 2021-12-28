@@ -1,0 +1,36 @@
+e4fdaeae-14cf-46e0-af31-3844370e311a  20211208T080758Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_10-800
+b34d50f4-c672-42ed-a38f-7cd0a1015342  20211208T080716Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_10-400
+709aaf8b-8a66-49ff-b743-594a17dfa4c1  20211208T080651Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_10-80
+0ed4cefc-4901-4995-9fd8-f676a8077392  20211208T080627Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_10-16
+366e1b66-e1ff-4747-9b10-728fe74e9884  20211208T080605Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_10-8
+e3029e4b-9472-4247-a655-34a395d98236  20211208T080142Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_10_no_flag-800
+20234038-0658-4904-a4d4-ea5777ae4c0a  20211208T080019Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_10_no_flag-400
+dd5425b5-9302-462f-9309-40c5cbf429c7  20211208T075946Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_10_no_flag-80
+c1a22392-a380-45c1-8f52-d85a2673af38  20211208T075918Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_10_no_flag-16
+0a9abd32-b39e-4e19-8164-cf9e9dd59646  20211208T075850Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_10_no_flag-8
+37228030-4a1b-4b59-bb57-388e662a14c3  20211208T075738Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_no_sort_10-800
+29fa02d3-a843-41f0-aec6-014eda4a6d64  20211208T075654Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_no_sort_10-400
+345a1907-c1f2-42eb-b47a-0a3c4a55d4ba  20211208T075507Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_no_sort_10-80
+9e4f99c6-4b9c-4c86-bb67-b32f12497405  20211208T075215Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_no_sort_10-16
+c4e91783-aa0d-4f77-a91f-e9cc0662df56  20211208T075146Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_no_sort_10-8
+
+
+
+
+
+
+
+
+53f005c3-9ba5-4c33-87db-8620be33060f  20211208T081449Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_100-800
+7375cabf-1808-4707-9374-e87db7b8ea5d  20211208T081401Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_100-400
+266f95fe-eb88-48ad-be43-066973c818d2  20211208T081314Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_100-80
+58c6d79f-e5f4-40b1-8ec8-ff3e609ff627  20211208T081227Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_100-16
+d9f8622c-1daf-4daf-b41d-ce8208008f6d  20211208T080936Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_100-8
+d3d18316-7bda-4a51-93c9-0d6942a914c1  20211208T081801Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_100_no_flag_100-80
+880097bb-80c2-4e59-ac6f-5812cb5b2c85  20211208T081715Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_100_no_flag_100-16
+f590c6be-fb18-4e6d-bb66-16d5e11dac56  20211208T081644Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_sort_100_no_flag_100-8
+84302851-b1e8-4a7c-983b-c115e6444bd1  20211208T082547Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_no_sort_100-800
+38c1ff72-8e32-4e2d-8253-b99004f053a1  20211208T082506Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_no_sort_100-400
+e0db2dcd-4fd9-4557-8b80-406e002f3791  20211208T082357Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_no_sort_100-80
+a4530263-e13f-4da9-a286-e471a6caac39  20211208T082330Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_no_sort_100-16
+c9bc33cc-3163-4980-8d60-24bb1198c04f  20211208T082304Z  private_nyc_taxis                      parallel     external  nyc_text=nyc_no_sort_100-8

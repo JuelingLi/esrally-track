@@ -1,0 +1,91 @@
+{
+    "name": "indexing-querying-has-index-sort",
+    "description": "Indexes the data for NYC Taxis, then concurrently queries Elasticsearch.",
+    "default": false,
+    "schedule": [
+      {
+        "operation": "delete-index"
+      },
+      {
+        "operation": {
+          "operation-type": "create-index",
+          "settings": {
+            "index.refresh_interval": "30s",
+            "index.sort.field": "dropoff_datetime",
+            "index.sort.order": "desc"
+          }
+        }
+      },
+      {
+        "name": "check-cluster-health",
+        "operation": {
+          "operation-type": "cluster-health",
+          "index": "private_nyc_taxis",
+          "request-params": {
+            "wait_for_status": "{{cluster_health | default('green')}}",
+            "wait_for_no_relocating_shards": "true"
+          },
+          "retry-until-success": true
+        }
+      },
+      {
+        "name": "initial-bulk",
+        "clients": {{bulk_indexing_clients | default(8)}},
+        "operation": {
+          "operation-type": "bulk",
+          "bulk-size": {{bulk_size | default(10000)}},
+          "ingest-percentage": 100
+        }
+      },
+      {
+        "name": "refresh-after-index",
+        "operation": "refresh"
+      },
+      {
+        "operation": {
+          "operation-type": "force-merge",
+  {%- if force_merge_max_num_segments is defined %}
+          "max-num-segments": {{ force_merge_max_num_segments | tojson }},
+  {%- endif %}
+          "request-timeout": 7200
+        }
+      },
+      {
+        "name": "refresh-after-force-merge",
+        "operation": "refresh"
+      },
+      {
+        "operation": "wait-until-merges-finish"
+      },       
+      {
+        "operation": "desc_sort_range_with_dense_query",
+        "clients": 10,
+        "iterations": 1000
+      },
+      {
+        "operation": "asc_sort_range_with_dense_query",
+        "clients": 10,
+        "iterations": 1000
+      },
+      {
+        "operation": "desc_sort_range_with_sparse_query",
+        "clients": 12,
+        "iterations": 1000
+      },
+      {
+        "operation": "asc_sort_range_with_sparse_query",
+        "clients": 12,
+        "iterations": 1000
+      },
+      {
+        "operation": "date_histogram_calendar_interval_dense_query",
+        "clients": 7,
+        "iterations": 1000
+      },
+      {
+        "operation": "date_histogram_fixed_interval_sparse_query",
+        "clients": 15,
+        "iterations": 1000
+      }      
+    ]
+}

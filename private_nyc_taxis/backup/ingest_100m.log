@@ -1,0 +1,63 @@
+|                                                         Metric |         Task |      Value |   Unit |
+|---------------------------------------------------------------:|-------------:|-----------:|-------:|
+|                     Cumulative indexing time of primary shards |              |    339.163 |    min |
+|             Min cumulative indexing time across primary shards |              |          0 |    min |
+|          Median cumulative indexing time across primary shards |              |  0.0581167 |    min |
+|             Max cumulative indexing time across primary shards |              |    334.692 |    min |
+|            Cumulative indexing throttle time of primary shards |              |          0 |    min |
+|    Min cumulative indexing throttle time across primary shards |              |          0 |    min |
+| Median cumulative indexing throttle time across primary shards |              |          0 |    min |
+|    Max cumulative indexing throttle time across primary shards |              |          0 |    min |
+|                        Cumulative merge time of primary shards |              |    205.193 |    min |
+|                       Cumulative merge count of primary shards |              |       3007 |        |
+|                Min cumulative merge time across primary shards |              |          0 |    min |
+|             Median cumulative merge time across primary shards |              |     0.0499 |    min |
+|                Max cumulative merge time across primary shards |              |     188.24 |    min |
+|               Cumulative merge throttle time of primary shards |              |   0.881117 |    min |
+|       Min cumulative merge throttle time across primary shards |              |          0 |    min |
+|    Median cumulative merge throttle time across primary shards |              |          0 |    min |
+|       Max cumulative merge throttle time across primary shards |              |   0.881117 |    min |
+|                      Cumulative refresh time of primary shards |              |    51.3636 |    min |
+|                     Cumulative refresh count of primary shards |              |      28066 |        |
+|              Min cumulative refresh time across primary shards |              |          0 |    min |
+|           Median cumulative refresh time across primary shards |              |   0.199983 |    min |
+|              Max cumulative refresh time across primary shards |              |    42.8004 |    min |
+|                        Cumulative flush time of primary shards |              |    21.2343 |    min |
+|                       Cumulative flush count of primary shards |              |        211 |        |
+|                Min cumulative flush time across primary shards |              |          0 |    min |
+|             Median cumulative flush time across primary shards |              |    0.00585 |    min |
+|                Max cumulative flush time across primary shards |              |    19.7198 |    min |
+|                                        Total Young Gen GC time |              |    157.897 |      s |
+|                                       Total Young Gen GC count |              |       1162 |        |
+|                                          Total Old Gen GC time |              |          0 |      s |
+|                                         Total Old Gen GC count |              |          0 |        |
+|                                                     Store size |              |    31.0366 |     GB |
+|                                                  Translog size |              |  0.0610478 |     GB |
+|                                         Heap used for segments |              |   0.527901 |     MB |
+|                                       Heap used for doc values |              |   0.203209 |     MB |
+|                                            Heap used for terms |              |   0.271622 |     MB |
+|                                            Heap used for norms |              | 0.00219727 |     MB |
+|                                           Heap used for points |              |          0 |     MB |
+|                                    Heap used for stored fields |              |  0.0508728 |     MB |
+|                                                  Segment count |              |         94 |        |
+|                                                 Min Throughput | initial-bulk |     983.94 | docs/s |
+|                                                Mean Throughput | initial-bulk |    4573.99 | docs/s |
+|                                              Median Throughput | initial-bulk |    2104.29 | docs/s |
+|                                                 Max Throughput | initial-bulk |    28657.1 | docs/s |
+|                                        50th percentile latency | initial-bulk |    2174.49 |     ms |
+|                                        90th percentile latency | initial-bulk |    3532.83 |     ms |
+|                                        99th percentile latency | initial-bulk |    5564.57 |     ms |
+|                                      99.9th percentile latency | initial-bulk |       8109 |     ms |
+|                                     99.99th percentile latency | initial-bulk |    9237.57 |     ms |
+|                                       100th percentile latency | initial-bulk |    9252.08 |     ms |
+|                                   50th percentile service time | initial-bulk |    2174.49 |     ms |
+|                                   90th percentile service time | initial-bulk |    3532.83 |     ms |
+|                                   99th percentile service time | initial-bulk |    5564.57 |     ms |
+|                                 99.9th percentile service time | initial-bulk |       8109 |     ms |
+|                                99.99th percentile service time | initial-bulk |    9237.57 |     ms |
+|                                  100th percentile service time | initial-bulk |    9252.08 |     ms |
+|                                                     error rate | initial-bulk |          0 |      % |
+
+-----------------------------------
+[INFO] SUCCESS (took 41004 seconds)
+-----------------------------------

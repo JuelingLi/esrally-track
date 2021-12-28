@@ -1,0 +1,40 @@
+0. 修改 track.json文件的三个地方
+          "document-count": 10000000, 
+          "uncompressed-bytes": 4990832406
+1） `wc -l documents.json` 得到 document-count
+2） `wc -c documents.json` 得到 uncompressed-bytes
+3）   "indices": [
+    {
+      "name": "nyc_sort",
+      "body": "index.json"
+    }
+  ],
+修改indices.name为要创建索引的名字
+
+1. 灌数据, create index 
+对不开index sorting
+esrally race --track-repository=private --track=private_nyc_taxis --target-hosts=127.0.0.1:9200 --pipeline=benchmark-only --challenge="ingest-data-no-sort"
+
+对开index sorting
+esrally race --track-repository=private --track=private_nyc_taxis --target-hosts=127.0.0.1:9200 --pipeline=benchmark-only --challenge="ingest-data-sort" 
+
+2. 
+cd ~/.rally/benchmarks/tracks/private/private_nyc_taxis/operations
+sh run.sh 8 nyc_no_sort # 表示对nyc_no_sort跑8个并行的query
+
+
+
+steps:
+10 sort
+10 no-sort
+
+nyc_sort_10
+nyc_sort_20
+nyc_sort_100
+
+nyc_no_sort_10
+nyc_no_sort_20
+nyc_no_sort_100
+
+sh run.sh 8 nyc_no_sort_10
+sh run.sh 16 nyc_no_sort_10

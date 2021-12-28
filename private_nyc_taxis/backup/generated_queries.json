@@ -1,0 +1,168 @@
+{% import "rally.helpers" as rally %}
+{% set start_time, end_time = 1420070400,1420819200 %}
+
+{
+    {% set random_time = range(start_time, end_time)| random %}
+    "name": "desc_sort_range_with_dense_query_1",
+    "operation-type": "search",
+    "body": {
+        "size":20,
+        "query":{
+            "bool":{
+                "filter":[
+                    {
+                        "range":{
+                            "dropoff_datetime":{
+                                "format": "epoch_second",
+                                "from": {{ random_time }},
+                                "to": {{ random_time+864000 }},
+                                "include_lower":true,
+                                "include_upper":false,
+                                "boost":1
+                            }
+                        }
+                    },
+                    {
+                        "query_string":{
+                            "query":"payment_type:\"2\"",
+                            "fields":[
+    
+                            ],
+                            "type":"best_fields",
+                            "default_operator":"or",
+                            "max_determinized_states":10000,
+                            "allow_leading_wildcard":false,
+                            "enable_position_increments":true,
+                            "fuzziness":"AUTO",
+                            "fuzzy_prefix_length":0,
+                            "fuzzy_max_expansions":50,
+                            "phrase_slop":0,
+                            "analyze_wildcard":true,
+                            "escape":false,
+                            "auto_generate_synonyms_phrase_query":true,
+                            "fuzzy_transpositions":true,
+                            "boost":1
+                        }
+                    }
+                ],
+                "adjust_pure_negative":true,
+                "boost":1
+            }
+        },
+        "sort":{
+          "dropoff_datetime":{
+            "order" : "desc"
+          }
+        }
+    }
+},
+{
+    {% set random_time = range(start_time, end_time)| random %}
+    "name": "desc_sort_range_with_dense_query_2",
+    "operation-type": "search",
+    "body": {
+        "size":20,
+        "query":{
+            "bool":{
+                "filter":[
+                    {
+                        "range":{
+                            "dropoff_datetime":{
+                                "format": "epoch_second",
+                                "from": {{ random_time }},
+                                "to": {{ random_time+864000 }},
+                                "include_lower":true,
+                                "include_upper":false,
+                                "boost":1
+                            }
+                        }
+                    },
+                    {
+                        "query_string":{
+                            "query":"payment_type:\"2\"",
+                            "fields":[
+    
+                            ],
+                            "type":"best_fields",
+                            "default_operator":"or",
+                            "max_determinized_states":10000,
+                            "allow_leading_wildcard":false,
+                            "enable_position_increments":true,
+                            "fuzziness":"AUTO",
+                            "fuzzy_prefix_length":0,
+                            "fuzzy_max_expansions":50,
+                            "phrase_slop":0,
+                            "analyze_wildcard":true,
+                            "escape":false,
+                            "auto_generate_synonyms_phrase_query":true,
+                            "fuzzy_transpositions":true,
+                            "boost":1
+                        }
+                    }
+                ],
+                "adjust_pure_negative":true,
+                "boost":1
+            }
+        },
+        "sort":{
+          "dropoff_datetime":{
+            "order" : "desc"
+          }
+        }
+    }
+},
+{
+    {% set random_time = range(start_time, end_time)| random %}
+    "name": "desc_sort_range_with_dense_query_3",
+    "operation-type": "search",
+    "body": {
+        "size":20,
+        "query":{
+            "bool":{
+                "filter":[
+                    {
+                        "range":{
+                            "dropoff_datetime":{
+                                "format": "epoch_second",
+                                "from": {{ random_time }},
+                                "to": {{ random_time+ 864000}},
+                                "include_lower":true,
+                                "include_upper":false,
+                                "boost":1
+                            }
+                        }
+                    },
+                    {
+                        "query_string":{
+                            "query":"payment_type:\"2\"",
+                            "fields":[
+    
+                            ],
+                            "type":"best_fields",
+                            "default_operator":"or",
+                            "max_determinized_states":10000,
+                            "allow_leading_wildcard":false,
+                            "enable_position_increments":true,
+                            "fuzziness":"AUTO",
+                            "fuzzy_prefix_length":0,
+                            "fuzzy_max_expansions":50,
+                            "phrase_slop":0,
+                            "analyze_wildcard":true,
+                            "escape":false,
+                            "auto_generate_synonyms_phrase_query":true,
+                            "fuzzy_transpositions":true,
+                            "boost":1
+                        }
+                    }
+                ],
+                "adjust_pure_negative":true,
+                "boost":1
+            }
+        },
+        "sort":{
+          "dropoff_datetime":{
+            "order" : "desc"
+          }
+        }
+    }
+}

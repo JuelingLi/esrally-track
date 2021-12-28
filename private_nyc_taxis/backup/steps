@@ -1,0 +1,19 @@
+challenges:
+no-index-sorting
+1, ingest-data-no
+
+
+index-sorting
+1, ingest-data-sort
+
+1. ingest data and indexing
+esrally race --track-repository=private --track=private_nyc_taxis --target-hosts=127.0.0.1:9200 --pipeline=benchmark-only --challenge="ingest-data-no-sort" --user-tag="nyc_text:no_indexing"
+
+2. run two esrally, one for 100 
+esrally race --track-repository=private --track=private_nyc_taxis --target-hosts=127.0.0.1:9200 --pipeline=benchmark-only --challenge="parallel" --user-tag="nyc_text:parallel" --enable-assertions
+
+esrally race --track-repository=private --track=private_nyc_taxis --target-hosts=127.0.0.1:9200 --pipeline=benchmark-only --challenge="track-data" --user-tag="nyc_text:track-data" --enable-assertions
+
+
+
+esrally race --track-repository=private --track=private_nyc_taxis --target-hosts=127.0.0.1:9200 --pipeline=benchmark-only --challenge="ingest-data-sort" --user-tag="nyc_text:sort_indexing"

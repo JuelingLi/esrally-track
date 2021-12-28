@@ -1,0 +1,83 @@
+10:
+626f540c-911c-414a-92a4-bc8611a722e8/race.json:  "nyc_text": "desc_sort_dense-nyc_no_sort_10-8"
+0af06909-2b0a-49be-bff4-6db6f7392082/race.json:  "nyc_text": "desc_sort_dense-nyc_no_sort_10-16"
+3f5e81ac-76f2-4b6b-88b2-e3928d23117b/race.json:  "nyc_text": "desc_sort_dense-nyc_no_sort_10-800"
+8599d381-89d8-4506-919f-bd51fc623e73/race.json:  "nyc_text": "desc_sort_dense-nyc_no_sort_10-400"
+8e5b9720-70b1-4085-9708-dc1c1647c527/race.json:  "nyc_text": "desc_sort_dense-nyc_no_sort_10-80"
+
+sort_no_flag:
+19c81c3a-13fb-4dab-96a5-24dad0263d4a/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_10-8"
+fa9f8464-a086-4045-b66c-c34f204947e9/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_10-16"
+c121dc82-f148-4969-a428-c74ba646c107/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_10-80"
+01833612-4314-4acc-829b-1c31a0e99bcf/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_10-400"
+d896b672-d7d3-4630-97bd-00ccd3fca86f/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_10-800"
+
+sort_flag:
+6f2e0bfc-db4d-4045-a22b-80850e325bce/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_10-8"
+b4068fe1-139b-4678-962c-cb56c0eb58ae/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_10-16"
+6f2d61d2-5937-4edb-b220-439d8d82dff7/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_10-80"
+cff2a2e0-0b73-4957-939f-52cfa2f51322/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_10-400"
+a48f810d-28e4-444d-acce-cbcf4c0e42ac/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_10-800"
+
+100:
+e82d51f7-61dd-4ebc-b693-9a4eb50d18fd/race.json:  "nyc_text": "desc_sort_dense-nyc_no_sort_100-8"
+2466205f-4ff1-4264-a5bc-30d2634e5ded/race.json:  "nyc_text": "desc_sort_dense-nyc_no_sort_100-16"
+3faacce0-b10d-4413-9b24-ba481e90d8bf/race.json:  "nyc_text": "desc_sort_dense-nyc_no_sort_100-400"
+55301938-3c3e-4605-87a0-81095f548d36/race.json:  "nyc_text": "desc_sort_dense-nyc_no_sort_100-80"
+7588d4e2-b7f1-4949-82ed-0839cadfd940/race.json:  "nyc_text": "desc_sort_dense-nyc_no_sort_100-800"
+
+
+sort_no_flag:
+cbf91994-75ed-4174-9dfb-55191685e1cf/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_100-8"
+d22d0e5b-677b-4b4e-b636-95aa6f113937/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_100-16"
+fbd21e7b-a45a-4563-ba32-798a11ff4165/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_100-80"
+88ccdbce-e9eb-4bf1-876b-5fc9678b8f58/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_100-400"
+4c975856-9327-40d8-9eba-445af013b5b8/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_100-800"
+
+
+sort_flag:
+df30de25-7b8c-41d8-8fb1-e1d2411b589c/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_100-8"
+4d2499dc-2e24-4b71-88c3-b749886ff518/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_100-16"
+40ecbf6c-cbb9-4377-bde1-8e2d8f403c8a/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_100-80"
+180f1b0a-ca3b-4762-88df-043a0e610ae2/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_100-400"
+81ccc091-30f1-453b-8516-8d256b2dd807/race.json:  "nyc_text": "desc_sort_dense-nyc_sort_100-800"
+
+
+
+20m:
+no_sort
+df3edcf3-b74e-45ef-a1cf-d2db464d04fd  20211208T120532Z  private_nyc_taxis                      parallel             external  nyc_text=desc_sort_dense-nyc_no_sort_20-800
+c9e86330-6273-4308-8325-7f8c65f700da  20211208T120352Z  private_nyc_taxis                      parallel             external  nyc_text=desc_sort_dense-nyc_no_sort_20-400
+c410a1d1-611a-4925-803f-8a876b1a6c7a  20211208T120324Z  private_nyc_taxis                      parallel             external  nyc_text=desc_sort_dense-nyc_no_sort_20-80
+50d3fe93-a503-4287-9273-413162f26848  20211208T120305Z  private_nyc_taxis                      parallel             external  nyc_text=desc_sort_dense-nyc_no_sort_20-16
+2d4490e8-c0dc-4356-9c94-8c8251ccd284  20211208T120230Z  private_nyc_taxis                      parallel             external  nyc_text=desc_sort_dense-nyc_no_sort_20-8
+
+sort_no_flag:
+
+
+
+sort_flag:
+
+
+
+50m:
+no_sort
+4aefa5d0-975a-40cc-a670-bfbd3472a1b8  20211208T121026Z  private_nyc_taxis                      parallel          external  nyc_text=desc_sort_dense-nyc_no_sort_50-400
+f41eb9e9-b56f-46f6-a1e0-31075391c6d9  20211208T120932Z  private_nyc_taxis                      parallel          external  nyc_text=desc_sort_dense-nyc_no_sort_50-80
+0d4c81c5-1e0a-4b14-b50c-a5755798d729  20211208T120907Z  private_nyc_taxis                      parallel          external  nyc_text=desc_sort_dense-nyc_no_sort_50-16
+c9886928-8843-4099-8df6-0172ac8b698b  20211208T120753Z  private_nyc_taxis                      parallel          external  nyc_text=desc_sort_dense-nyc_no_sort_50-8
+
+sort_no_flag:
+
+
+
+sort_flag:
+
+
+3e7533f6-9e1d-4bca-b68e-ecb1a38f545d  20211208T121533Z  private_nyc_taxis                      parallel     external  nyc_text=asc_sort_dense-nyc_no_sort_100-16
+413c16b5-9fd0-4e55-a473-5b696e4aa5f9  20211208T121511Z  private_nyc_taxis                      parallel     external  nyc_text=asc_sort_dense-nyc_no_sort_50-16
+47e3a71b-6fe2-4709-9137-191812096ed7  20211208T121451Z  private_nyc_taxis                      parallel     external  nyc_text=asc_sort_dense-nyc_no_sort_20-16
+d5c71f26-f6ff-4b4c-ba59-4898bf1ef524  20211208T121431Z  private_nyc_taxis                      parallel     external  nyc_text=asc_sort_dense-nyc_no_sort_100-8
+29783b8d-185c-4448-b09b-ebcc340a3117  20211208T121411Z  private_nyc_taxis                      parallel     external  nyc_text=asc_sort_dense-nyc_no_sort_50-8
+afc4fae2-512b-417a-88bb-2a1af0c6e9a2  20211208T121343Z  private_nyc_taxis                      parallel     external  nyc_text=asc_sort_dense-nyc_no_sort_20-8
+4

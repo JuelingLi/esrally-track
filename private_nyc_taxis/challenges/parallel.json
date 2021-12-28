@@ -1,0 +1,17 @@
+{
+  "name": "parallel",
+  "description": "Indexes the data for NYC Taxis, then concurrently queries Elasticsearch.",
+  "default": false,
+  "schedule": [
+    {
+      "parallel":{
+        "tasks":[
+          {% for id in range (1,800) %}
+          {"operation": "asc_sort_dense_{{id}}"},
+          {% endfor %}
+          {"operation": "asc_sort_dense_800"}
+        ]
+      }  
+    }
+  ]
+}

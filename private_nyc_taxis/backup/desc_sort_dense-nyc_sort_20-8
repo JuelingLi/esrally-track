@@ -1,0 +1,294 @@
+|                                                         Metric |              Task |      Value |   Unit |
+|---------------------------------------------------------------:|------------------:|-----------:|-------:|
+|                     Cumulative indexing time of primary shards |                   |    1508.44 |    min |
+|             Min cumulative indexing time across primary shards |                   |          0 |    min |
+|          Median cumulative indexing time across primary shards |                   |    5.34412 |    min |
+|             Max cumulative indexing time across primary shards |                   |    471.162 |    min |
+|            Cumulative indexing throttle time of primary shards |                   |          0 |    min |
+|    Min cumulative indexing throttle time across primary shards |                   |          0 |    min |
+| Median cumulative indexing throttle time across primary shards |                   |          0 |    min |
+|    Max cumulative indexing throttle time across primary shards |                   |          0 |    min |
+|                        Cumulative merge time of primary shards |                   |    737.342 |    min |
+|                       Cumulative merge count of primary shards |                   |       2677 |        |
+|                Min cumulative merge time across primary shards |                   |          0 |    min |
+|             Median cumulative merge time across primary shards |                   |    7.04417 |    min |
+|                Max cumulative merge time across primary shards |                   |    222.917 |    min |
+|               Cumulative merge throttle time of primary shards |                   |     3.5413 |    min |
+|       Min cumulative merge throttle time across primary shards |                   |          0 |    min |
+|    Median cumulative merge throttle time across primary shards |                   |          0 |    min |
+|       Max cumulative merge throttle time across primary shards |                   |    0.76495 |    min |
+|                      Cumulative refresh time of primary shards |                   |    89.2256 |    min |
+|                     Cumulative refresh count of primary shards |                   |      18357 |        |
+|              Min cumulative refresh time across primary shards |                   |          0 |    min |
+|           Median cumulative refresh time across primary shards |                   |   0.548683 |    min |
+|              Max cumulative refresh time across primary shards |                   |     49.803 |    min |
+|                        Cumulative flush time of primary shards |                   |    82.0904 |    min |
+|                       Cumulative flush count of primary shards |                   |        483 |        |
+|                Min cumulative flush time across primary shards |                   |          0 |    min |
+|             Median cumulative flush time across primary shards |                   |   0.464417 |    min |
+|                Max cumulative flush time across primary shards |                   |    24.5782 |    min |
+|                                        Total Young Gen GC time |                   |          0 |      s |
+|                                       Total Young Gen GC count |                   |          0 |        |
+|                                          Total Old Gen GC time |                   |          0 |      s |
+|                                         Total Old Gen GC count |                   |          0 |        |
+|                                                     Store size |                   |    71.8844 |     GB |
+|                                                  Translog size |                   |   0.059056 |     GB |
+|                                         Heap used for segments |                   |    1.06742 |     MB |
+|                                       Heap used for doc values |                   |   0.309902 |     MB |
+|                                            Heap used for terms |                   |   0.595978 |     MB |
+|                                            Heap used for norms |                   | 0.00292969 |     MB |
+|                                           Heap used for points |                   |          0 |     MB |
+|                                    Heap used for stored fields |                   |   0.158607 |     MB |
+|                                                  Segment count |                   |        287 |        |
+|                                                 Min Throughput | desc_sort_dense_1 |      10.16 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_1 |      10.16 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_1 |      10.16 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_1 |      10.16 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_1 |    97.5606 |     ms |
+|                                  100th percentile service time | desc_sort_dense_1 |    97.5606 |     ms |
+|                                                     error rate | desc_sort_dense_1 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_2 |       9.49 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_2 |       9.49 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_2 |       9.49 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_2 |       9.49 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_2 |    104.389 |     ms |
+|                                  100th percentile service time | desc_sort_dense_2 |    104.389 |     ms |
+|                                                     error rate | desc_sort_dense_2 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_3 |       9.82 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_3 |       9.82 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_3 |       9.82 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_3 |       9.82 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_3 |    100.957 |     ms |
+|                                  100th percentile service time | desc_sort_dense_3 |    100.957 |     ms |
+|                                                     error rate | desc_sort_dense_3 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_4 |      10.59 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_4 |      10.59 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_4 |      10.59 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_4 |      10.59 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_4 |    93.5537 |     ms |
+|                                  100th percentile service time | desc_sort_dense_4 |    93.5537 |     ms |
+|                                                     error rate | desc_sort_dense_4 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_5 |       9.49 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_5 |       9.49 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_5 |       9.49 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_5 |       9.49 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_5 |    99.2267 |     ms |
+|                                  100th percentile service time | desc_sort_dense_5 |    99.2267 |     ms |
+|                                                     error rate | desc_sort_dense_5 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_6 |       9.45 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_6 |       9.45 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_6 |       9.45 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_6 |       9.45 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_6 |    104.578 |     ms |
+|                                  100th percentile service time | desc_sort_dense_6 |    104.578 |     ms |
+|                                                     error rate | desc_sort_dense_6 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_7 |      10.61 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_7 |      10.61 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_7 |      10.61 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_7 |      10.61 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_7 |    93.1072 |     ms |
+|                                  100th percentile service time | desc_sort_dense_7 |    93.1072 |     ms |
+|                                                     error rate | desc_sort_dense_7 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_8 |       9.38 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_8 |       9.38 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_8 |       9.38 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_8 |       9.38 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_8 |    105.569 |     ms |
+|                                  100th percentile service time | desc_sort_dense_8 |    105.569 |     ms |
+|                                                     error rate | desc_sort_dense_8 |          0 |      % |
+|                                                         Metric |              Task |      Value |   Unit |
+|---------------------------------------------------------------:|------------------:|-----------:|-------:|
+|                     Cumulative indexing time of primary shards |                   |    1508.61 |    min |
+|             Min cumulative indexing time across primary shards |                   |          0 |    min |
+|          Median cumulative indexing time across primary shards |                   |    5.42725 |    min |
+|             Max cumulative indexing time across primary shards |                   |    471.162 |    min |
+|            Cumulative indexing throttle time of primary shards |                   |          0 |    min |
+|    Min cumulative indexing throttle time across primary shards |                   |          0 |    min |
+| Median cumulative indexing throttle time across primary shards |                   |          0 |    min |
+|    Max cumulative indexing throttle time across primary shards |                   |          0 |    min |
+|                        Cumulative merge time of primary shards |                   |    737.785 |    min |
+|                       Cumulative merge count of primary shards |                   |       2724 |        |
+|                Min cumulative merge time across primary shards |                   |          0 |    min |
+|             Median cumulative merge time across primary shards |                   |    7.04417 |    min |
+|                Max cumulative merge time across primary shards |                   |    222.917 |    min |
+|               Cumulative merge throttle time of primary shards |                   |     3.5413 |    min |
+|       Min cumulative merge throttle time across primary shards |                   |          0 |    min |
+|    Median cumulative merge throttle time across primary shards |                   |          0 |    min |
+|       Max cumulative merge throttle time across primary shards |                   |    0.76495 |    min |
+|                      Cumulative refresh time of primary shards |                   |    90.0802 |    min |
+|                     Cumulative refresh count of primary shards |                   |      18887 |        |
+|              Min cumulative refresh time across primary shards |                   |          0 |    min |
+|           Median cumulative refresh time across primary shards |                   |   0.548683 |    min |
+|              Max cumulative refresh time across primary shards |                   |    50.6062 |    min |
+|                        Cumulative flush time of primary shards |                   |    82.1045 |    min |
+|                       Cumulative flush count of primary shards |                   |        485 |        |
+|                Min cumulative flush time across primary shards |                   |          0 |    min |
+|             Median cumulative flush time across primary shards |                   |   0.464417 |    min |
+|                Max cumulative flush time across primary shards |                   |    24.5782 |    min |
+|                                        Total Young Gen GC time |                   |          0 |      s |
+|                                       Total Young Gen GC count |                   |          0 |        |
+|                                          Total Old Gen GC time |                   |          0 |      s |
+|                                         Total Old Gen GC count |                   |          0 |        |
+|                                                     Store size |                   |    71.8868 |     GB |
+|                                                  Translog size |                   |  0.0853252 |     GB |
+|                                         Heap used for segments |                   |   0.988525 |     MB |
+|                                       Heap used for doc values |                   |   0.299576 |     MB |
+|                                            Heap used for terms |                   |   0.533569 |     MB |
+|                                            Heap used for norms |                   | 0.00195312 |     MB |
+|                                           Heap used for points |                   |          0 |     MB |
+|                                    Heap used for stored fields |                   |   0.153427 |     MB |
+|                                                  Segment count |                   |        276 |        |
+|                                                 Min Throughput | desc_sort_dense_1 |         21 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_1 |         21 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_1 |         21 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_1 |         21 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_1 |    43.8311 |     ms |
+|                                  100th percentile service time | desc_sort_dense_1 |    43.8311 |     ms |
+|                                                     error rate | desc_sort_dense_1 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_2 |      19.52 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_2 |      19.52 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_2 |      19.52 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_2 |      19.52 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_2 |    48.3126 |     ms |
+|                                  100th percentile service time | desc_sort_dense_2 |    48.3126 |     ms |
+|                                                     error rate | desc_sort_dense_2 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_3 |      19.94 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_3 |      19.94 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_3 |      19.94 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_3 |      19.94 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_3 |    46.8035 |     ms |
+|                                  100th percentile service time | desc_sort_dense_3 |    46.8035 |     ms |
+|                                                     error rate | desc_sort_dense_3 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_4 |      19.98 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_4 |      19.98 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_4 |      19.98 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_4 |      19.98 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_4 |     49.272 |     ms |
+|                                  100th percentile service time | desc_sort_dense_4 |     49.272 |     ms |
+|                                                     error rate | desc_sort_dense_4 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_5 |      21.53 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_5 |      21.53 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_5 |      21.53 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_5 |      21.53 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_5 |    35.9902 |     ms |
+|                                  100th percentile service time | desc_sort_dense_5 |    35.9902 |     ms |
+|                                                     error rate | desc_sort_dense_5 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_6 |       21.4 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_6 |       21.4 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_6 |       21.4 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_6 |       21.4 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_6 |    34.7957 |     ms |
+|                                  100th percentile service time | desc_sort_dense_6 |    34.7957 |     ms |
+|                                                     error rate | desc_sort_dense_6 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_7 |      20.57 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_7 |      20.57 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_7 |      20.57 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_7 |      20.57 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_7 |    47.5094 |     ms |
+|                                  100th percentile service time | desc_sort_dense_7 |    47.5094 |     ms |
+|                                                     error rate | desc_sort_dense_7 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_8 |      21.88 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_8 |      21.88 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_8 |      21.88 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_8 |      21.88 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_8 |    36.4387 |     ms |
+|                                  100th percentile service time | desc_sort_dense_8 |    36.4387 |     ms |
+|                                                     error rate | desc_sort_dense_8 |          0 |      % |
+|                                                         Metric |              Task |      Value |   Unit |
+|---------------------------------------------------------------:|------------------:|-----------:|-------:|
+|                     Cumulative indexing time of primary shards |                   |    1508.61 |    min |
+|             Min cumulative indexing time across primary shards |                   |          0 |    min |
+|          Median cumulative indexing time across primary shards |                   |    5.42985 |    min |
+|             Max cumulative indexing time across primary shards |                   |    471.162 |    min |
+|            Cumulative indexing throttle time of primary shards |                   |          0 |    min |
+|    Min cumulative indexing throttle time across primary shards |                   |          0 |    min |
+| Median cumulative indexing throttle time across primary shards |                   |          0 |    min |
+|    Max cumulative indexing throttle time across primary shards |                   |          0 |    min |
+|                        Cumulative merge time of primary shards |                   |    737.799 |    min |
+|                       Cumulative merge count of primary shards |                   |       2727 |        |
+|                Min cumulative merge time across primary shards |                   |          0 |    min |
+|             Median cumulative merge time across primary shards |                   |    7.04417 |    min |
+|                Max cumulative merge time across primary shards |                   |    222.917 |    min |
+|               Cumulative merge throttle time of primary shards |                   |     3.5413 |    min |
+|       Min cumulative merge throttle time across primary shards |                   |          0 |    min |
+|    Median cumulative merge throttle time across primary shards |                   |          0 |    min |
+|       Max cumulative merge throttle time across primary shards |                   |    0.76495 |    min |
+|                      Cumulative refresh time of primary shards |                   |    90.1191 |    min |
+|                     Cumulative refresh count of primary shards |                   |      18937 |        |
+|              Min cumulative refresh time across primary shards |                   |          0 |    min |
+|           Median cumulative refresh time across primary shards |                   |   0.548683 |    min |
+|              Max cumulative refresh time across primary shards |                   |    50.6386 |    min |
+|                        Cumulative flush time of primary shards |                   |    82.1045 |    min |
+|                       Cumulative flush count of primary shards |                   |        485 |        |
+|                Min cumulative flush time across primary shards |                   |          0 |    min |
+|             Median cumulative flush time across primary shards |                   |   0.464417 |    min |
+|                Max cumulative flush time across primary shards |                   |    24.5782 |    min |
+|                                        Total Young Gen GC time |                   |          0 |      s |
+|                                       Total Young Gen GC count |                   |          0 |        |
+|                                          Total Old Gen GC time |                   |          0 |      s |
+|                                         Total Old Gen GC count |                   |          0 |        |
+|                                                     Store size |                   |     71.887 |     GB |
+|                                                  Translog size |                   |  0.0856428 |     GB |
+|                                         Heap used for segments |                   |    1.04114 |     MB |
+|                                       Heap used for doc values |                   |   0.304703 |     MB |
+|                                            Heap used for terms |                   |   0.576599 |     MB |
+|                                            Heap used for norms |                   | 0.00268555 |     MB |
+|                                           Heap used for points |                   |          0 |     MB |
+|                                    Heap used for stored fields |                   |    0.15715 |     MB |
+|                                                  Segment count |                   |        284 |        |
+|                                                 Min Throughput | desc_sort_dense_1 |      24.85 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_1 |      24.85 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_1 |      24.85 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_1 |      24.85 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_1 |    39.1853 |     ms |
+|                                  100th percentile service time | desc_sort_dense_1 |    39.1853 |     ms |
+|                                                     error rate | desc_sort_dense_1 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_2 |      26.39 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_2 |      26.39 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_2 |      26.39 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_2 |      26.39 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_2 |    36.8094 |     ms |
+|                                  100th percentile service time | desc_sort_dense_2 |    36.8094 |     ms |
+|                                                     error rate | desc_sort_dense_2 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_3 |      23.47 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_3 |      23.47 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_3 |      23.47 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_3 |      23.47 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_3 |    41.2923 |     ms |
+|                                  100th percentile service time | desc_sort_dense_3 |    41.2923 |     ms |
+|                                                     error rate | desc_sort_dense_3 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_4 |      26.43 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_4 |      26.43 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_4 |      26.43 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_4 |      26.43 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_4 |    35.3604 |     ms |
+|                                  100th percentile service time | desc_sort_dense_4 |    35.3604 |     ms |
+|                                                     error rate | desc_sort_dense_4 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_5 |      25.24 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_5 |      25.24 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_5 |      25.24 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_5 |      25.24 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_5 |    38.4208 |     ms |
+|                                  100th percentile service time | desc_sort_dense_5 |    38.4208 |     ms |
+|                                                     error rate | desc_sort_dense_5 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_6 |       24.1 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_6 |       24.1 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_6 |       24.1 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_6 |       24.1 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_6 |     36.883 |     ms |
+|                                  100th percentile service time | desc_sort_dense_6 |     36.883 |     ms |
+|                                                     error rate | desc_sort_dense_6 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_7 |      23.73 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_7 |      23.73 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_7 |      23.73 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_7 |      23.73 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_7 |    37.2584 |     ms |
+|                                  100th percentile service time | desc_sort_dense_7 |    37.2584 |     ms |
+|                                                     error rate | desc_sort_dense_7 |          0 |      % |
+|                                                 Min Throughput | desc_sort_dense_8 |      25.64 |  ops/s |
+|                                                Mean Throughput | desc_sort_dense_8 |      25.64 |  ops/s |
+|                                              Median Throughput | desc_sort_dense_8 |      25.64 |  ops/s |
+|                                                 Max Throughput | desc_sort_dense_8 |      25.64 |  ops/s |
+|                                       100th percentile latency | desc_sort_dense_8 |    36.0677 |     ms |
+|                                  100th percentile service time | desc_sort_dense_8 |    36.0677 |     ms |
+|                                                     error rate | desc_sort_dense_8 |          0 |      % |

@@ -1,0 +1,31 @@
+{% import "rally.helpers" as rally with context %}
+
+{
+  "version": 2,
+  "description": "Taxi rides in New York in 2015",
+  "indices": [
+    {
+      "name": "nyc_sort_20",
+      "body": "index.json"
+    }
+  ],
+  "corpora": [
+    {
+      "name": "private_nyc_taxis",
+      "base-url": "https://rally-tracks.elastic.co/nyc_taxis",
+      "documents": [
+        {
+          "source-file": "documents_20m.json",
+          "document-count": 20000000, 
+          "uncompressed-bytes": 9967956719
+        }
+      ]
+    }
+  ],
+  "operations": [
+    {{ rally.collect(parts="operations/generated.json") }}
+  ],
+  "challenges": [
+    {{ rally.collect(parts="challenges/*.json") }}
+  ]
+}

@@ -1,0 +1,96 @@
+    ____        ____
+   / __ \____ _/ / /_  __
+  / /_/ / __ `/ / / / / /
+ / _, _/ /_/ / / / /_/ /
+/_/ |_|\__,_/_/_/\__, /
+                /____/
+
+[INFO] Race id is [b973c311-7da0-4d0e-859b-8c82d72a9dc1]
+[INFO] Racing on track [private_nyc_taxis], challenge [ingest-data-sort] and car ['external'] with version [7.14.2-SNAPSHOT].
+
+[WARNING] merges_total_time is 12316867 ms indicating that the cluster is not in a defined clean state. Recorded index time metrics may be misleading.
+[WARNING] merges_total_throttled_time is 52867 ms indicating that the cluster is not in a defined clean state. Recorded index time metrics may be misleading.
+[WARNING] indexing_total_time is 20350250 ms indicating that the cluster is not in a defined clean state. Recorded index time metrics may be misleading.
+[WARNING] refresh_total_time is 3089915 ms indicating that the cluster is not in a defined clean state. Recorded index time metrics may be misleading.
+[WARNING] flush_total_time is 1280019 ms indicating that the cluster is not in a defined clean state. Recorded index time metrics may be misleading.
+Running delete-index                                                           [100% done]
+Running create-index                                                           [100% done]
+Running check-cluster-health                                                   [100% done]
+Running initial-bulk                                                           [100% done]
+Running refresh-after-index                                                    [100% done]
+Running force-merge                                                            [100% done]
+Running refresh-after-force-merge                                              [100% done]
+Running wait-until-merges-finish                                               [100% done]
+
+------------------------------------------------------
+    _______             __   _____
+   / ____(_)___  ____ _/ /  / ___/_________  ________
+  / /_  / / __ \/ __ `/ /   \__ \/ ___/ __ \/ ___/ _ \
+ / __/ / / / / / /_/ / /   ___/ / /__/ /_/ / /  /  __/
+/_/   /_/_/ /_/\__,_/_/   /____/\___/\____/_/   \___/
+------------------------------------------------------
+
+|                                                         Metric |         Task |      Value |   Unit |
+|---------------------------------------------------------------:|-------------:|-----------:|-------:|
+|                     Cumulative indexing time of primary shards |              |    857.018 |    min |
+|             Min cumulative indexing time across primary shards |              |          0 |    min |
+|          Median cumulative indexing time across primary shards |              |  0.0987833 |    min |
+|             Max cumulative indexing time across primary shards |              |    516.823 |    min |
+|            Cumulative indexing throttle time of primary shards |              |          0 |    min |
+|    Min cumulative indexing throttle time across primary shards |              |          0 |    min |
+| Median cumulative indexing throttle time across primary shards |              |          0 |    min |
+|    Max cumulative indexing throttle time across primary shards |              |          0 |    min |
+|                        Cumulative merge time of primary shards |              |     433.16 |    min |
+|                       Cumulative merge count of primary shards |              |       3530 |        |
+|                Min cumulative merge time across primary shards |              |          0 |    min |
+|             Median cumulative merge time across primary shards |              |     0.0542 |    min |
+|                Max cumulative merge time across primary shards |              |    224.635 |    min |
+|               Cumulative merge throttle time of primary shards |              |    1.25707 |    min |
+|       Min cumulative merge throttle time across primary shards |              |          0 |    min |
+|    Median cumulative merge throttle time across primary shards |              |          0 |    min |
+|       Max cumulative merge throttle time across primary shards |              |   0.881117 |    min |
+|                      Cumulative refresh time of primary shards |              |    78.9418 |    min |
+|                     Cumulative refresh count of primary shards |              |      30692 |        |
+|              Min cumulative refresh time across primary shards |              |          0 |    min |
+|           Median cumulative refresh time across primary shards |              |   0.214467 |    min |
+|              Max cumulative refresh time across primary shards |              |    54.5914 |    min |
+|                        Cumulative flush time of primary shards |              |    47.3243 |    min |
+|                       Cumulative flush count of primary shards |              |        332 |        |
+|                Min cumulative flush time across primary shards |              |          0 |    min |
+|             Median cumulative flush time across primary shards |              |   0.005925 |    min |
+|                Max cumulative flush time across primary shards |              |    25.9178 |    min |
+|                                        Total Young Gen GC time |              |    179.864 |      s |
+|                                       Total Young Gen GC count |              |       1380 |        |
+|                                          Total Old Gen GC time |              |          0 |      s |
+|                                         Total Old Gen GC count |              |          0 |        |
+|                                                     Store size |              |    46.4348 |     GB |
+|                                                  Translog size |              |  0.0636061 |     GB |
+|                                         Heap used for segments |              |   0.589684 |     MB |
+|                                       Heap used for doc values |              |   0.220543 |     MB |
+|                                            Heap used for terms |              |   0.297211 |     MB |
+|                                            Heap used for norms |              | 0.00292969 |     MB |
+|                                           Heap used for points |              |          0 |     MB |
+|                                    Heap used for stored fields |              |  0.0690002 |     MB |
+|                                                  Segment count |              |        118 |        |
+|                                                 Min Throughput | initial-bulk |    8606.88 | docs/s |
+|                                                Mean Throughput | initial-bulk |    23770.8 | docs/s |
+|                                              Median Throughput | initial-bulk |    23829.4 | docs/s |
+|                                                 Max Throughput | initial-bulk |    26082.9 | docs/s |
+|                                        50th percentile latency | initial-bulk |    2463.97 |     ms |
+|                                        90th percentile latency | initial-bulk |    7317.56 |     ms |
+|                                        99th percentile latency | initial-bulk |    15246.7 |     ms |
+|                                      99.9th percentile latency | initial-bulk |    18383.4 |     ms |
+|                                     99.99th percentile latency | initial-bulk |    21796.5 |     ms |
+|                                       100th percentile latency | initial-bulk |    21919.1 |     ms |
+|                                   50th percentile service time | initial-bulk |    2463.97 |     ms |
+|                                   90th percentile service time | initial-bulk |    7317.56 |     ms |
+|                                   99th percentile service time | initial-bulk |    15246.7 |     ms |
+|                                 99.9th percentile service time | initial-bulk |    18383.4 |     ms |
+|                                99.99th percentile service time | initial-bulk |    21796.5 |     ms |
+|                                  100th percentile service time | initial-bulk |    21919.1 |     ms |
+|                                                     error rate | initial-bulk |          0 |      % |
+
+
+----------------------------------
+[INFO] SUCCESS (took 4629 seconds)
+----------------------------------

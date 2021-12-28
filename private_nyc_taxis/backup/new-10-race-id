@@ -1,0 +1,22 @@
+93b37ba0-c3df-4206-89a8-e35a0be8a052  20211206T115918Z  private_nyc_taxis                      parallel             external  nyc_text=new-10-asc-sort-800
+281a6a9a-5ae6-436d-b20b-cc92d53182ba  20211206T115824Z  private_nyc_taxis                      parallel             external  nyc_text=new-10-asc-sort-400
+1c4ad737-e031-4afe-84c1-dd8566fd8dd6  20211206T115737Z  private_nyc_taxis                      parallel             external  nyc_text=new-10-asc-sort-80
+b5b874a9-cecc-478d-9ac0-168896f3573a  20211206T115710Z  private_nyc_taxis                      parallel             external  nyc_text=new-10-asc-sort-80
+c4f4785b-80a1-48ce-8fe8-b3d8d6869826  20211206T115604Z  private_nyc_taxis                      parallel             external  nyc_text=new-10-asc-sort-8
+
+
+
+
+
+
+8
+esrally compare --baseline=d1e303f4-2cbd-46c8-9a94-981972504480 --contender=c4f4785b-80a1-48ce-8fe8-b3d8d6869826
+
+80
+esrally compare --baseline=1dbbda0b-e7c8-4add-a759-7eb1db5a8bfc --contender=40ff123e-9736-493a-bd82-015acf4ac25b
+
+400
+esrally compare --baseline=7a8d7f31-e0d6-43eb-8391-bbf341bfcace --contender=281a6a9a-5ae6-436d-b20b-cc92d53182ba
+
+800
+esrally compare --baseline=e15365ed-77e1-44fe-9502-0b68b1bd25d9 --contender=93b37ba0-c3df-4206-89a8-e35a0be8a052 

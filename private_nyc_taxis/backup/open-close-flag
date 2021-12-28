@@ -1,0 +1,11 @@
+8
+esrally compare --baseline=12a56c0e-a4f8-4f14-bb4e-5aba399967ab --contender=c4f4785b-80a1-48ce-8fe8-b3d8d6869826
+
+80
+esrally compare --baseline=958213cd-89d7-4aeb-9eac-9972c5642f22 --contender=40ff123e-9736-493a-bd82-015acf4ac25b
+
+400
+esrally compare --baseline=594f1038-4070-4b8a-aff6-c8a4ba4dcf01 --contender=281a6a9a-5ae6-436d-b20b-cc92d53182ba
+
+800
+esrally compare --baseline=732961c7-42db-45b8-906d-77943acd568c --contender=93b37ba0-c3df-4206-89a8-e35a0be8a052 
